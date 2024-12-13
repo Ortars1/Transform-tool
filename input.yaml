@@ -1,0 +1,6 @@
+service:
+  name: "MyService"
+  ports: [80, 443]
+  settings:
+    maxConnections: 1024
+    enableSsl: true

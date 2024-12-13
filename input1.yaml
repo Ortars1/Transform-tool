@@ -1,0 +1,11 @@
+# Комментарий перед разделом базы данных
+database:
+  type: "SQL" # Тип базы данных
+  connection:
+    host: "localhost"
+    port: 5432
+  users:
+    - name: "admin"
+      password: "secret"
+    - name: "guest"
+      password: "guest"
